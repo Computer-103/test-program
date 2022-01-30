@@ -4,7 +4,7 @@ start_input                 16  1
 set_io_sw       0 0 1 0     4   0
 set_main_sw     0           4   0
 start_input                 16  1
-arr_strt        0000        16  0
+clear_strt                  16  0
 set_io_sw       0 0 0 1     4   0
 set_main_sw     1           4   0
 clear_pulse                 16  1
