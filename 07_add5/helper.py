@@ -1,10 +1,10 @@
 import random
 
-# + (+) -
+# |x| (+) |x|
 num_idx = 0o3000
 
 for i in range(0o400):
-    if i % 2:
+    if random.randint(0, 1):
         sign = "-"
     else:
         sign = "+"

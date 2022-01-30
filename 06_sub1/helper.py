@@ -71,6 +71,6 @@ for i in range(32):
     # l_idx += 1
 
 
-print("%04o@ +54 0000 0000" % l_idx)
+print("%04o@ +37 0000 0000" % l_idx)
 
 print()
