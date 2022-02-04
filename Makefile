@@ -4,7 +4,7 @@ SIM = $(shell pwd)/../simulator/src_c/simulator
 export SIM
 
 DIRS = $(wildcard */)
-# DIRS = 01_io/ 01_io2/ 01_io3/ 02_branch1/
+# DIRS = 10_pnl/
 INPUT_103S = $(foreach dir, $(DIRS), $(dir)input.103)
 INPUT_BINS = $(foreach dir, $(DIRS), $(dir)input.bin)
 OUTPUT_103S = $(foreach dir, $(DIRS), $(dir)output.103)
