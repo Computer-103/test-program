@@ -5,6 +5,7 @@ export SIM
 
 DIRS = $(wildcard */)
 # DIRS = 10_pnl/
+# DIRS = 11_sw/
 INPUT_103S = $(foreach dir, $(DIRS), $(dir)input.103)
 INPUT_BINS = $(foreach dir, $(DIRS), $(dir)input.bin)
 OUTPUT_103S = $(foreach dir, $(DIRS), $(dir)output.103)

@@ -1,0 +1,30 @@
+set_io_sw       0 0 1 0     4   0
+set_main_sw     0 0 0       4   0
+start_input                 16  1
+set_io_sw       0 0 0 0     4   0
+set_main_sw     1 1 1       4   0
+arr_cmp         0002        150 0
+arr_strt        0000        150 0
+clear_pulse                 16  0
+start_pulse                 16  1
+start_pulse                 16  1
+start_pulse                 16  1
+set_main_sw     1 1 0       4   0
+arr_cmp         2003        150 0
+arr_strt        0003        150 0
+clear_pulse                 16  0
+start_pulse                 16  1
+set_main_sw     0 0 0       4   0
+arr_strt        0007        150 0
+clear_pulse                 16  0
+start_pulse                 16  1
+start_pulse                 16  1
+start_pulse                 16  1
+start_pulse                 16  1
+start_pulse                 16  1
+start_pulse                 16  1
+start_pulse                 16  1
+start_pulse                 16  1
+start_pulse                 16  1
+clear_pulse                 16  0
+start_output                16  1
