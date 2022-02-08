@@ -1,8 +1,8 @@
 set_io_sw       0 0 1 0     4   0
-set_main_sw     0           4   0
+set_main_sw     0 0 0       4   0
 start_input                 16  1
 arr_strt        0010        150 0
 set_io_sw       0 0 0 1     4   0
-set_main_sw     1           4   0
+set_main_sw     1 0 0       4   0
 clear_pulse                 16  1
 start_pulse                 16  1

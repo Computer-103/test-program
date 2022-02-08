@@ -1,4 +1,4 @@
-set_main_sw     0           4   0
+set_main_sw     0 0 0       4   0
 set_io_sw       0 0 1 0     4   0
 arr_sel         1000        150 0
 arr_reg_c       01111111111 150 0
@@ -14,11 +14,11 @@ arr_reg_c       17676544567 150 0
 mem_write                   16  0
 start_input                 16  1
 set_io_sw       0 0 0 0     4   0
-set_main_sw     1           4   0
+set_main_sw     1 0 0       4   0
 clear_strt                  16  0
 clear_pulse                 16  1
 start_pulse                 16  1
-set_main_sw     0           4   0
+set_main_sw     0 0 0       4   0
 set_io_sw       0 0 1 0     4   0
 arr_sel         2000        150 0
 mem_read                    16  0
